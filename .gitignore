@@ -140,3 +140,19 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+.idea/.gitignore
+.idea/AdventOfCode.iml
+.idea/modules.xml
+.idea/vcs.xml
+Day1/.clangd/
+Day1/CMakeLists.txt
+Day1/day1
+Day1/input.txt
+Day1/main.cpp
+Day2/
+Day3/.clangd/
+Day3/CMakeLists.txt
+Day3/day3
+Day3/input.txt
+Day3/main.cpp
+Day3/main.sh
