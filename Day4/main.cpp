@@ -14,7 +14,7 @@ int main(){
 	    temp += temp2;
 		if (file.peek() == '\n' || file.eof()) {
 			fileData.emplace_back(temp);
-			temp = "";
+			temp.clear();
 		}
 	}
     
