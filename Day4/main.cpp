@@ -18,8 +18,9 @@ int main(){
 		}
 	}
     
-	auto validPassports{std::count_if(fileData.begin(), fileData.end(), [](const std::string& passport){
+	auto validPassportsPart1{std::count_if(fileData.begin(), fileData.end(), [](const std::string& passport){
         return std::regex_search(passport,std::regex("^(?=.*byr)(?=.*iyr)(?=.*eyr)(?=.*hgt)(?=.*hcl)(?=.*ecl)(?=.*pid).*$"));
 	})};
-	std::cout << validPassports;
+	
+	std::cout << validPassportsPart1;
 }
