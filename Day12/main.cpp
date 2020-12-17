@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <exception>
 
 char convertToCardinal(int direction){
 	if (direction == 0) {
